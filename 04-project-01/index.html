@@ -15,6 +15,7 @@
       <a href="#about">About</a>
       <a href="#text">Text</a>
       <a href="#film">Film</a>
+      <a href="#rate">Rate</a>
       <a href="https://www.weblitera.com/book/?id=205&lng=1" target="_blank">
         <!-- The HTML <figure> (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (<figcaption>) element -->
         <figure>
@@ -23,6 +24,7 @@
       </a>
     </nav>
   </header>
+
   <main>
     <!-- The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable -->
     <article id="about">
@@ -32,12 +34,14 @@
       <!-- The HTML <q> element indicates that the enclosed text is a short inline quotation -->
       <p>A memorable and much-quoted line in The Master and Margarita is: <q cite="https://www.weblitera.com/book/?id=205&lng=1&ch=24">manuscripts don't burn</q>.</p>
     </article>
+
     <!-- The HTML <section> element represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document -->
     <section id="text">
       <h2>Text of the novel:</h2>
       <!-- The HTML Inline Frame element (<iframe>) represents a nested browsing context, embedding another HTML page into the current one -->
       <iframe src="https://www.weblitera.com/book/?id=205&lng=1" width="600" height="500"></iframe>
     </section>
+
     <section id="film">
       <h2>Fragment from the film:</h2>
       <!-- The HTML Video element (<video>) embeds a media player which supports video playback into the document. -->
@@ -46,10 +50,40 @@
         Sorry, your browser doesn't support embedded videos.
       </video>
     </section>
+
+    <section id="rate">
+      <h2>Rate the book:</h2>
+      <!-- The HTML <form> element represents a document section that contains interactive controls for submitting information to a web server -->
+      <form action="" method="GET">
+        <div>
+          <!-- The HTML <label> element represents a caption for an item in a user interface -->
+          <label for="name">Your name:</label>
+          <!-- The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user -->
+          <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        </div>
+        <div>
+          <label for="rating">Book's rating:</label>
+          <!-- The HTML <select> element represents a control that provides a menu of options -->
+          <select name="rating" id="rating" required>
+            <!-- The HTML <option> element is used to define an item contained in a <select> element -->
+            <option value=""> -- Choose a rating -- </option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
   </main>
+
   <footer>
     <!-- The HTML <small> element makes the text font size one size smaller. In HTML5, this element is repurposed to represent side-comments and small print, including copyright and legal text, independent of its styled presentation. -->
-    <small>Copyright &copy; 2019, Dmitrij Sukach</small>
+    <p><small>Copyright &copy; 2019, Dmitrij Sukach</small></p>
   </footer>
 </body>
 
