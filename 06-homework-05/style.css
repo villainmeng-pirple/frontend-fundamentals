@@ -1,0 +1,104 @@
+body {
+  background-color: #fffff0;
+  color: #000040;
+}
+
+p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+ul,
+ol {
+  font-size: 0.95rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding-bottom: 0.5rem;
+}
+
+.underlined-bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.bright {
+  color: #000080;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+#other {
+  border-top: 1px solid #000040;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+section,
+article {
+  margin-bottom: 2rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 1vw;
+}
+
+.link-item {
+  margin-bottom: 0.5rem;
+}
+
+#photos img {
+  display: block;
+  margin-bottom: 1rem;
+  max-width: 500px;
+  width: 90vw;
+}
+
+a {
+  color: #006fee;
+}
+
+a:visited {
+  color: #8b831a;
+}
+
+#top a:visited {
+  color: #006fee;
+}
+
+.emoji-list {
+  list-style-image: url(../images/emoji/Study.png);
+}
+
+.roman-list {
+  list-style-type: upper-roman;
+}
+
+p span {
+  font-style: italic;
+}
+
+p span:last-child {
+  text-decoration: underline;
+}
+
+.red-text {
+  font-style: normal;
+  color: red;
+}
