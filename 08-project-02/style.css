@@ -1,0 +1,146 @@
+@import url("reset.css");
+
+body {
+  background-color: #fefefe;
+  font-family: Arial;
+}
+
+q {
+  font-style: italic;
+}
+
+q::before,
+q::after {
+  content: '"';
+}
+
+header {
+  color: #999;
+  height: 42px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+header>nav {
+  height: 100%;
+}
+
+header>nav>ul {
+  display: flex;
+  height: 100%;
+}
+
+header>nav>ul>li {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin: 0 1rem;
+}
+
+header>nav>ul>li:hover {
+  background-color: #f9f9f9;
+  color: gray;
+}
+
+header>nav>ul>li>a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header>nav>ul>li>a>img {
+  width: 24px;
+}
+
+.caption {
+  color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../images/earth.jpg");
+  background-size: cover;
+}
+
+.caption>h1,
+.caption>p {
+  line-height: 5rem;
+  margin: 0 2rem;
+}
+
+.caption>h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.caption>p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2rem;
+}
+
+.about>h1 {
+  text-align: center;
+  line-height: 10rem;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 4rem;
+  color: #333;
+}
+
+.about>p {
+  text-align: justify;
+  line-height: 3rem;
+  font-size: 2rem;
+  color: #adadad;
+  margin: 0 2rem 2rem 2rem;
+}
+
+@media (max-width: 670px) {
+  .caption>h1,
+  .caption>p {
+    line-height: 4rem;
+  }
+  
+  .caption>h1 {
+    font-size: 2rem;
+  }
+  
+  .caption>p {
+    font-size: 1.5rem;
+  }
+
+  .about>h1 {
+    line-height: 7rem;
+    font-size: 3rem;
+  }
+
+  .about>p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .caption>h1,
+  .caption>p {
+    line-height: 3rem;
+  }
+  
+  .caption>h1 {
+    font-size: 1.5rem;
+  }
+  
+  .caption>p {
+    font-size: 1rem;
+  }  
+
+  .about>h1 {
+    line-height: 5rem;
+    font-size: 2rem;
+  }
+
+  .about>p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0 1rem 1rem 1rem;
+  }
+}
