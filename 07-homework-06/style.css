@@ -1,0 +1,138 @@
+body {
+  background-color: #fffff0;
+  color: #000040;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+ul,
+ol {
+  font-size: 0.95rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+em,
+strong {
+  color: #000080;
+  padding-bottom: 0.5rem;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+header>nav>ul {
+  background-color: #000040;
+  color: #fffff0;
+  margin: 0;
+  padding-left: 0;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header>nav>ul>li {
+  flex-grow: 1;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 400px) {
+  main {
+    margin-top: 20rem;
+  }
+
+  header>nav>ul {
+    height: 18rem;
+    flex-direction: column;
+  }
+
+  header>nav>ul>li {
+    height: 3rem;
+  }
+}
+
+header>nav>ul>li>a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header>nav>ul>li:hover {
+  background-color: #000080;
+  color: #ffff80;
+}
+
+#lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 750px) {
+  #lists {
+    flex-direction: column;
+  }
+}
+
+#other {
+  border-top: 1px solid #000040;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+section,
+article {
+  margin-bottom: 2rem;
+}
+
+.nav-item {
+  font-size: 1rem;
+}
+
+.link-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.link-item {
+  margin-bottom: 0.5rem;
+}
+
+#photos {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+#photos>div {
+  padding: 0 1rem 1rem 0;
+}
+
+#photos>div>img {
+  max-width: 100%;
+}
+
+.emoji-list {
+  list-style-image: url(../images/emoji/Study.png);
+}
