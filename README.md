@@ -8,8 +8,8 @@ Homeworks, Projects and Exam for Pirple Frontend Fundamentals Course
 * [Project #1](https://youtu.be/oa0qeKp4bGM)
 * [Homework #4](https://youtu.be/mnGV9AS4_uM)
 * [Homework #5](https://youtu.be/8fhSmiVjoOU)
-* [Homework #6](https://youtu.be/)
-* [Project #2](https://youtu.be/)
+* [Homework #6](https://youtu.be/jMp7t8u52DU)
+* [Project #2](https://youtu.be/LWMy-Qlgriw)
 
 ## Stackoverflow Answers:
 * [How to make flexbox items equal height and/or start at the same point](https://stackoverflow.com/questions/55604040/how-to-make-flexbox-items-equal-height-and-or-start-at-the-same-point/55605015#55605015)
